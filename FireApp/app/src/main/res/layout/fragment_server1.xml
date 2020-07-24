@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/zoomscreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                app:srcCompat="@drawable/floor1" />
+
+            <TextView
+                android:id="@+id/center1"
+                android:layout_width="164dp"
+                android:layout_height="160dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/r12_red"
+                android:layout_width="42dp"
+                android:layout_height="38.5dp"
+                android:layout_alignLeft="@id/center1"
+                android:layout_alignTop="@id/center1"
+                android:background="@android:color/holo_red_dark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r12_green"
+                android:layout_width="42dp"
+                android:layout_height="38.5dp"
+                android:layout_alignLeft="@id/center1"
+                android:layout_alignTop="@id/center1"
+                android:background="@android:color/holo_green_dark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r12_purple"
+                android:layout_width="42dp"
+                android:layout_height="38.5dp"
+                android:layout_alignLeft="@id/center1"
+                android:layout_alignTop="@id/center1"
+                android:background="@android:color/holo_blue_dark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r11_red"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignRight="@id/center1"
+                android:layout_alignBottom="@id/center1"
+                android:background="@android:color/holo_red_dark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r11_green"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignRight="@id/center1"
+                android:layout_alignBottom="@id/center1"
+                android:background="@android:color/holo_green_dark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r11_purple"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignRight="@id/center1"
+                android:layout_alignBottom="@id/center1"
+                android:background="@android:color/holo_blue_dark"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/extinguisher"
+                android:layout_width="37dp"
+                android:layout_height="41dp"
+                android:layout_below="@+id/r12_red"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="169dp"
+                app:srcCompat="@drawable/fireextinguisher" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/center1"
+                android:layout_alignTop="@+id/r11_red"
+                android:layout_marginStart="-117dp"
+                android:layout_marginLeft="-117dp"
+                android:layout_marginTop="92dp"
+                android:layout_toEndOf="@+id/center1"
+                android:layout_toRightOf="@+id/center1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/time11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/window12"
+                    android:layout_alignEnd="@+id/window12"
+                    android:layout_alignRight="@+id/window12"
+                    android:text="time"
+                    android:textSize="13sp" />
+
+                <Switch
+                    android:id="@+id/window11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="창문1"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/door11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="문1    "
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/center1"
+                android:layout_alignStart="@+id/center1"
+                android:layout_alignLeft="@+id/center1"
+                android:layout_alignTop="@+id/r11_red"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="-248dp"
+                android:layout_marginBottom="58dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/time12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/window11"
+                    android:layout_alignEnd="@+id/window11"
+                    android:layout_alignRight="@+id/window11"
+                    android:text="time"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/window12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="창문2"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/door12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="문2    "
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

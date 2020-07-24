@@ -1,0 +1,7 @@
+<resources>
+<string name="app_name">소방관용 앱</string>
+<string name="building">경북대학교 IT-1호관</string>
+<string name="floor1">1층</string>
+<string name="floor2">2층</string>
+<string name="refresh_button">새로고침</string>
+</resources>
