@@ -1,6 +1,8 @@
 # IoT 기반 화재 안전 비상대피 및 구조 시스템
 건물 내 화재 발생 시 화재 발생 위치 및 시간을 실시간으로 파악할 수 있는 서비스
 
+![image](https://user-images.githubusercontent.com/60952506/225847060-559e653a-a6d2-403d-9d1a-df7b758ffc5d.png)
+
 <br>
 
 ## 📅 진행 기간
